@@ -6,6 +6,6 @@ Add a random emoji to every commit message. :shipit:
 3. `cd expressive-git`
 2. `./install.sh`
 3. cd to the repo you need some emoting at the .git level
-4. run `activate-expression`
+4. `./activate-expression`
 
 Commit away
