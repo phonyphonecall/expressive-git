@@ -1,0 +1,2 @@
+#!/bin/sh
+cp -f /usr/local/share/emoji/commit-msg .git/hooks/
