@@ -9,3 +9,5 @@ Add a random emoji to every commit message. :shipit:
 4. `./activate-expression`
 
 Commit away
+
+*Note that this will overwrite any `commit-msg` hook that is currently in place in the project.*
