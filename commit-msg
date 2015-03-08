@@ -1,2 +1,2 @@
 #!/bin/sh
-printf "%s %s" "$(cat $1)" "$(echo $(rl -c 1 /usr/local/share/emoji/emojis_sorted))" > "$1"
+printf "%s %s" "$(echo $(rl -c 1 /usr/local/share/emoji/emojis_sorted))" "$(cat $1)" > "$1"
