@@ -1,3 +1,2 @@
 #!/bin/sh
-#printf "%s %s" "$(echo $(rl -c 1 /usr/local/share/emoji/emojis_sorted))" "$(cat $1)" > "$1"
 python -c "import random; print '%s %s' %(random.choice(list(open('/usr/local/share/emoji/emojis_sorted'))).strip(), \"\"\"$(cat $1)\"\"\")" > "$1"
